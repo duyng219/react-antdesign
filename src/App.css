@@ -175,6 +175,16 @@ header
   right: 5%;
   opacity: 1;
 }
+/* Border-radius Drawer Header*/
+.ant-drawer-content-wrapper {
+  border-top-left-radius: 1rem; 
+  border-bottom-left-radius: 1rem;
+}
+
+.ant-drawer .ant-drawer-content {
+  border-top-left-radius: 1rem; 
+  border-bottom-left-radius: 1rem;
+}
 
 /* ant menu */
 .header .ant-menu {

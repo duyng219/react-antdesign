@@ -6,7 +6,7 @@ const AppFooter = () => {
         <div className='container-fluid'>
             <div className="footer">
                 <div className="logo">
-                <i class="fa-brands fa-dochub"></i>
+                <i style={{color:'#1890ff',paddingRight:'0px'}} className="fa-brands fa-dochub"></i><a href="/" style={{fontSize:'18px'}}>uy Nguyen</a>
                 {/* <a href="http://google.com" >Duy Nguyen</a> */}
                 </div>
                 <ul className='socials'>

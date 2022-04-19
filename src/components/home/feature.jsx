@@ -14,14 +14,14 @@ const { Meta } = Card;
 
 const AppFeature = () => {
     return (
-        <div className='block featureBlock bgGray'>
+        <div id='feature' className='block featureBlock bgGray'>
             <div className='container-fluid'>
                 <div className="titleHolder">
                     <h2>Key Features and Benefits</h2>
                     <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
                 </div>
                 <Row gutter={[16, 16]}>
-                    <Col span={8}>
+                    <Col xs={{ span: 24}} sm={{ span: 12}} md={{ span: 8}}>
                         <Card
                             hoverable
                             cover={<img alt="Item" src={image1}/>}
@@ -29,7 +29,7 @@ const AppFeature = () => {
                             <Meta title="Modern Design"s/>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24}} sm={{ span: 12}} md={{ span: 8}}>
                         <Card
                             hoverable
                             cover={<img alt="Item" src={image2}/>}
@@ -37,7 +37,7 @@ const AppFeature = () => {
                             <Meta title="Clean and Elegant"s/>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24}} sm={{ span: 12}} md={{ span: 8}}>
                         <Card
                             hoverable
                             cover={<img alt="Item" src={image3}/>}
@@ -45,7 +45,7 @@ const AppFeature = () => {
                             <Meta title="Great Support"s/>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24}} sm={{ span: 12}} md={{ span: 8}}>
                         <Card
                             hoverable
                             cover={<img alt="Item" src={image4}/>}
@@ -53,7 +53,7 @@ const AppFeature = () => {
                             <Meta title="Easy to customise"s/>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24}} sm={{ span: 12}} md={{ span: 8}}>
                         <Card
                             hoverable
                             cover={<img alt="Item" src={image5}/>}
@@ -61,7 +61,7 @@ const AppFeature = () => {
                             <Meta title="Unlimited Features"s/>
                         </Card>
                     </Col>
-                    <Col span={8}>
+                    <Col xs={{ span: 24}} sm={{ span: 12}} md={{ span: 8}}>
                         <Card
                             hoverable
                             cover={<img alt="Item" src={image6}/>}
