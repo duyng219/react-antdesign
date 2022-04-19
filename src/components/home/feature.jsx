@@ -16,13 +16,57 @@ const AppFeature = () => {
     return (
         <div className='block featureBlock bgGray'>
             <div className='container-fluid'>
+                <div className="titleHolder">
+                    <h2>Key Features and Benefits</h2>
+                    <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+                </div>
                 <Row gutter={[16, 16]}>
                     <Col span={8}>
                         <Card
                             hoverable
-                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+                            cover={<img alt="Item" src={image1}/>}
                         >
-                            <Meta title="Europe Street beat"s/>
+                            <Meta title="Modern Design"s/>
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            cover={<img alt="Item" src={image2}/>}
+                        >
+                            <Meta title="Clean and Elegant"s/>
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            cover={<img alt="Item" src={image3}/>}
+                        >
+                            <Meta title="Great Support"s/>
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            cover={<img alt="Item" src={image4}/>}
+                        >
+                            <Meta title="Easy to customise"s/>
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            cover={<img alt="Item" src={image5}/>}
+                        >
+                            <Meta title="Unlimited Features"s/>
+                        </Card>
+                    </Col>
+                    <Col span={8}>
+                        <Card
+                            hoverable
+                            cover={<img alt="Item" src={image6}/>}
+                        >
+                            <Meta title="Advanced Options"s/>
                         </Card>
                     </Col>
                 </Row>

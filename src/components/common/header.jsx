@@ -6,7 +6,7 @@ const AppHeader = () => {
         <div className='container-fluid'>
             <div className="header">
                 <div className="logo">
-                    <a href="index.html" class="ds-logo">
+                    <a href="index.html" className="ds-logo">
                         <span>D</span>Duy Nguyen
                     </a>
                 </div>
